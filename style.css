@@ -1,0 +1,215 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container1 {
+  padding: 0px 15% 100px 15%;
+
+  background: rgb(30,40,55);
+  display:flex;
+  flex-direction: column;
+
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerTitle {
+  color: white;
+  font-size: large;
+}
+
+.headerLinkItem {
+  color: white;
+  margin: 0px 1rem;
+}
+
+.headerContainerNavigator {
+  display: flex;
+}
+
+.firstParagraphContainer{
+  display: flex;
+  justify-content: space-between;
+  height: 27vh;
+}
+
+.firstParagraphTextContainer{
+  width: 50%;
+  height: 30vh;
+  display:flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.paragraph1{
+
+  color: white;
+  font-style: inherit;
+  font-weight: bold;
+  font-size: x-large;
+
+}
+
+.paragraph2{
+  color: white;
+  font-style: inherit;
+  font-weight: bold;
+  
+}
+
+.button{
+  background-color:  blue;
+  padding: 8px 12% 8px 12%;
+  color: white;
+  font-weight: bolder;
+  border-radius: 5px;
+font-size: small;
+width:50%;
+}
+
+.firstParagraphImageContainer{
+  width: 70%;
+  margin-top: 3vh;
+  margin-left:10vh;
+  height: 100%;
+}
+
+.firstParagraphImage {
+  width:100%;
+  height: 100%
+}
+
+ .container2 {
+  padding: 0px 10% 70px 10%;
+  background: white;
+  display:flex;
+ flex-direction: column;
+  }
+.headlineContainer{
+align-self: center;
+font-size: x-large;
+}
+.titles{
+    color:black;
+
+  }
+
+.imgcontainer{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+.img1{
+  width:8%;
+  height:9vh;
+}
+.img2{
+  width:8%;
+  height:9vh;
+}
+
+.img3{
+  width:8%;
+  height:9vh;
+}
+
+.imagtext{
+
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+overflow-wrap: break-word;
+text-align: center;
+font-size: smaller;
+}
+.text1{
+  inline-size: 130px;
+ 
+}
+.text2{
+  inline-size: 150px;
+}
+
+.text3{
+  inline-size: 150px;
+
+}
+.container3 {
+  padding: 0px 15% 0px 15%;
+height: 20vh;
+  background:rgb(214, 214, 213);
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .citat1{
+    font-style: oblique;
+  }
+
+  .autor{
+    font-weight: bold;
+    display:flex;
+  align-self:flex-end;
+  margin-right: 10%;
+  }
+
+.container4{
+  padding: 0px 15% 20px 15%;
+  background: white
+}
+.boxcontainer{
+  display: flex;
+  margin-top: 7vh;
+  margin-bottom: 7vh;
+  height: 12vh;
+  border:2px solid blue;
+  background: blue;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+.text{
+  display: flex;
+  flex-direction: column;
+  color:white;
+}
+.description{
+  font-weight: bolder;
+  margin-top: 12px;
+}
+.buttonforSignUp{
+color: white;
+background-color: blue;
+border-color: white;
+border-style:ridge;
+
+}
+
+.container5{
+  padding: 0px 15% 50px 15%;
+  background: rgb(30,40,55);
+  display: flex;
+justify-content: center;
+align-content: center;
+}
+
+.textproject{
+  color:white;
+  margin-top: 25px;
+}
+
+.hidden{
+  display: none
+}
